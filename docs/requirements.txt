@@ -1,3 +1,5 @@
-sphinx==1.7.3
+sphinx==3.0.4
 sphinxcontrib-googleanalytics
 -e git://github.com/snide/sphinx_rtd_theme.git#egg=sphinx_rtd_theme
+pygments>=2.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
